@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 app_name = 'judge'
 urlpatterns = [
@@ -12,3 +14,6 @@ urlpatterns = [
     path('problem/<int:problem_id>/submit', views.submitProblem, name='submit'),
     path('leaderboard/', views.leaderboard, name='leaderboard'),
 ]
+
+
+urlpatterns +=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
