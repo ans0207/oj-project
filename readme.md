@@ -15,6 +15,7 @@ This project is a django-based online judge platform that remotely compiles user
 * **HTML/CSS**: The front-end languages used for designing the user interface.
 * **JavaScript**: Used for enhancing the user experience and implementing interactive features.
 
+## You can access the website using : [Link](https://oj-project-6knd.vercel.app/judge/)
 
 ## Installation
 To run the Django Online Judge Platform locally, follow these steps:
@@ -50,8 +51,6 @@ To run the Django Online Judge Platform locally, follow these steps:
 
 9. Access the platform in your web browser at http://localhost:8000.
 
-
-## You can also access the site using : [Link](https://oj-project-6knd.vercel.app/judge/)
 
 ## Contributing
 
